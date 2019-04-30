@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yscd-zull-service" />
+        <module name="yscd-service-user" />
+        <module name="sc-demo (1)" />
+        <module name="yscd-eureka-service" />
+        <module name="sc-demo" />
+        <module name="paascloud-provider-uac" />
+        <module name="yscd-config-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="paascloud-provider-uac" target="1.8" />
+      <module name="sc-demo" target="1.8" />
+      <module name="sc-demo (1)" target="1.8" />
+      <module name="yscd-common" target="1.8" />
+      <module name="yscd-config-service" target="1.8" />
+      <module name="yscd-eureka-service" target="1.8" />
+      <module name="yscd-service" target="1.8" />
+      <module name="yscd-service-user" target="1.8" />
+      <module name="yscd-zull-service" target="1.8" />
+      <module name="yun-spring-cloud-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="sc-demo" options="-parameters" />
+      <module name="sc-demo (1)" options="-parameters" />
+      <module name="yscd-config-service" options="-parameters" />
+      <module name="yscd-eureka-service" options="-parameters" />
+      <module name="yscd-service-user" options="-parameters" />
+      <module name="yscd-zull-service" options="-parameters" />
+      <module name="yun-spring-cloud-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

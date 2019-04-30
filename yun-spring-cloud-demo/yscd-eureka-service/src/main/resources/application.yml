@@ -1,0 +1,36 @@
+#Default port is 8761
+server:
+#    服务状态网址
+    port: 8761
+
+spring:
+    profiles:
+        active: dev
+    application:
+        name: @pom.artifactId@
+
+eureka:
+    instance:
+      hostname: localhost
+    client:
+        # 是否注册 Eureka 到服务，EK 服务不用注册，客服端需要注册
+        registerWithEureka: false
+
+        # 获取eureka服务器注册表上的注册信息，EK 服务不用，客服端需需要获取
+        # 多 EK 服务时，。。。
+        fetchRegistry: false
+
+#        单独 EK 服务，指定本机地址
+        service-url:
+            defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#    server:
+        # 默认：5min 在服务接收请求之前等待的时间，本地测试时，可以调低
+#        wait-time-in-ms-when-sync-empty: 1
+#    serviceUrl:
+#        defaultZone: http://localhost:8761
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: \*
