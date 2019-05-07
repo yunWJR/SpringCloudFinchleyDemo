@@ -1,0 +1,42 @@
+server:
+    port: 5555
+
+eureka:
+    instance:
+        preferIpAddress: true
+    client:
+        register-with-eureka: true
+        fetch-registry: true
+        service-url:
+            defaultZone: http://localhost:8761/eureka
+
+zuul:
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+  forceOriginalQueryStringEncoding: true
+  routes:
+    client-route: #自定义路由
+      path: /client/**
+      serviceId: EUREKACLIENT
+    client2-route:
+      path: /client2/**
+      serviceId: EUREKACLIENT2
+    client-static: #静态路由，不通过 Eureka，网关直接调用
+      path: /client3/**
+      url: http://127.0.0.1:7100/
+
+#zuul:
+#  prefix:  /api #路径前缀
+#  routes:
+#
+#  # organization 手动路由到 organizationservice
+#  organizationservice: /organization/**
+#
+#  # 排除 EK 中自动路由 organizationservice、*为排除所有
+#  ignored-services: 'organizationservice'
+##  静态路由 licensestatic -- zuul内部使用的路由ID
+#  licensestatic:
+#    path: /licensestatic/**
+#    url: http://ddddd:999
+

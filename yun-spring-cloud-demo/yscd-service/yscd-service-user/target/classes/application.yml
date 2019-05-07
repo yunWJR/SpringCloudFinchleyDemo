@@ -1,0 +1,39 @@
+#Default port is 8761
+server:
+#    服务状态网址
+    port: 7100
+
+spring:
+    profiles:
+        active: dev
+    application:
+        name: EurekaClient # 服务名称
+
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://112.45.108.16:3306/epmgdev?characterEncoding=utf8&useSSL=false
+        username: root
+        password: skkj123
+        driver-class-name: com.mysql.cj.jdbc.Driver
+
+    jpa:
+        properties:
+            hibernate:
+                show_sql: true
+                format_sql: true
+        database: mysql
+        hibernate:
+            ddl-auto: update
+        database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+        show-sql: true
+
+eureka:
+    instance:
+        preferIpAddress: true # 注册 IP 到 EK
+    #        statusPageUrlPath: ${server.servletPath}/info
+    #        healthCheckUrlPath: ${server.servletPath}/health
+    client:
+        register-with-eureka: true
+        fetch-registry: true
+        service-url:
+            defaultZone: http://localhost:8761/eureka

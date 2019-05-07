@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "yscd",
+      "type": "com.yun.yscd.common.config.YscdProperties",
+      "sourceType": "com.yun.yscd.common.config.YscdProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "yscd.qiniu",
+      "type": "com.yun.yscd.common.config.properties.QiniuProperties",
+      "sourceType": "com.yun.yscd.common.config.YscdProperties"
+    },
+    {
+      "name": "yscd.swagger",
+      "type": "com.yun.yscd.common.config.properties.SwaggerProperties",
+      "sourceType": "com.yun.yscd.common.config.YscdProperties"
+    }
+  ],
+  "hints": []
+}
