@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="yscd-zull-service" />
+        <module name="paascloud-provider-uac" />
+        <module name="yscd-common-core" />
         <module name="yscd-service-user" />
-        <module name="sc-demo (1)" />
+        <module name="yscd-common-config" />
         <module name="yscd-eureka-service" />
         <module name="sc-demo" />
-        <module name="paascloud-provider-uac" />
+        <module name="yscd-zull-service" />
         <module name="yscd-config-service" />
+        <module name="sc-demo (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +24,8 @@
       <module name="sc-demo" target="1.8" />
       <module name="sc-demo (1)" target="1.8" />
       <module name="yscd-common" target="1.8" />
+      <module name="yscd-common-config" target="1.8" />
+      <module name="yscd-common-core" target="1.8" />
       <module name="yscd-config-service" target="1.8" />
       <module name="yscd-eureka-service" target="1.8" />
       <module name="yscd-service" target="1.8" />
@@ -36,6 +40,8 @@
       <module name="common" options="-parameters" />
       <module name="sc-demo" options="-parameters" />
       <module name="sc-demo (1)" options="-parameters" />
+      <module name="yscd-common-config" options="-parameters" />
+      <module name="yscd-common-core" options="-parameters" />
       <module name="yscd-config-service" options="-parameters" />
       <module name="yscd-eureka-service" options="-parameters" />
       <module name="yscd-service-user" options="-parameters" />

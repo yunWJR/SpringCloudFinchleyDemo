@@ -1,4 +1,4 @@
-package com.yun.yscdserviceuser;
+package com.yun.yscd.service.user;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

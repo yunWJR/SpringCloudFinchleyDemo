@@ -14,7 +14,8 @@
     <packaging>pom</packaging>
 
     <modules>
-<!--        <module>xxx</module>-->
+        <module>yscd-common-config</module>
+        <module>yscd-common-core</module>
     </modules>
 
     <properties>
@@ -25,6 +26,15 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
         </dependency>
     </dependencies>
 

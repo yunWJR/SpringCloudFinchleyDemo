@@ -33,9 +33,6 @@
         <module>yscd-eureka-service</module>
         <module>yscd-zull-service</module>
         <module>yscd-service</module>
-<!--        <module>paascloud-common</module>-->
-<!--        <module>paascloud-provider</module>-->
-<!--        <module>paascloud-generator</module>-->
     </modules>
 
 <!--    <dependencies>-->

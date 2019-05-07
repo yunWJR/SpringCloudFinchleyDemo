@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/yscd-common/yscd-common-config/yscd-common-config.iml" filepath="$PROJECT_DIR$/yscd-common/yscd-common-config/yscd-common-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yscd-common/yscd-common-core/yscd-common-core.iml" filepath="$PROJECT_DIR$/yscd-common/yscd-common-core/yscd-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/yscd-config-service/yscd-config-service.iml" filepath="$PROJECT_DIR$/yscd-config-service/yscd-config-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/yscd-eureka-service/yscd-eureka-service.iml" filepath="$PROJECT_DIR$/yscd-eureka-service/yscd-eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/yscd-service/yscd-service-user/yscd-service-user.iml" filepath="$PROJECT_DIR$/yscd-service/yscd-service-user/yscd-service-user.iml" />
