@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yscd-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yscd-common/yscd-common-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yscd-common/yscd-common-core" charset="UTF-8" />
@@ -10,6 +11,5 @@
     <file url="file://$PROJECT_DIR$/yscd-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yscd-service/yscd-service-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yscd-zull-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/yun-common" charset="UTF-8" />
   </component>
 </project>

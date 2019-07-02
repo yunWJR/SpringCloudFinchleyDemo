@@ -27,7 +27,7 @@
     </properties>
 
     <modules>
-        <module>yun-common</module>
+        <module>base</module>
         <module>yscd-common</module>
         <module>yscd-config-service</module>
         <module>yscd-eureka-service</module>

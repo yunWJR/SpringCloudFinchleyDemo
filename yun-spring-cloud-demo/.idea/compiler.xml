@@ -10,11 +10,11 @@
         <module name="yscd-common-core" />
         <module name="yscd-service-user" />
         <module name="yscd-common-config" />
+        <module name="sc-demo (1)" />
         <module name="yscd-eureka-service" />
-        <module name="sc-demo" />
+        <module name="base" />
         <module name="yscd-zull-service" />
         <module name="yscd-config-service" />
-        <module name="sc-demo (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
